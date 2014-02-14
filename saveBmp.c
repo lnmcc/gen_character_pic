@@ -26,6 +26,7 @@ void Snapshot(BYTE *pData, int width, int height, char *fileName, DWORD size) {
         fprintf(stderr, "open file: %s error\n", fileName);
         return;
     }
+
     fwrite(&bfh.bfType, 1, 2, fp);
     fwrite(&bfh.bfSize, 1, 4, fp);
     fwrite(&bfh.bfReserved1, 1, 2, fp);
