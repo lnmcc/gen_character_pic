@@ -1,0 +1,10 @@
+* build:
+    gcc -Wall -g -o genPic genPic.c saveBmp.c  -lGL -lglut -std=c99
+
+* run:
+    -n : 需要生成的bmp张数
+    -w : bmp的宽度
+    -h : bmp的高度
+    -f : 保存bmp文件的位置
+* example:
+    genPic -n 100 -w 1920 -h 1080 -f /tmp
