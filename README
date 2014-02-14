@@ -5,6 +5,7 @@
     -n : 需要生成的bmp张数
     -w : bmp的宽度
     -h : bmp的高度
-    -f : 保存bmp文件的位置
+    -p : 保存bmp文件的位置
+	-d : 生成的图像在屏幕上显示的时间
 * example:
-    genPic -n 100 -w 1920 -h 1080 -f /tmp
+	genPic -n 10 -d 1 -w 1920 -h 1080 -p /tmp
